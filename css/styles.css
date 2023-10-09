@@ -1,0 +1,117 @@
+body {
+    background-color: rgb(166, 215, 246);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+
+/*CAIXA FORM*/
+.container-flex-right {
+    position: relative;
+    display: flex;
+    flex-direction: center;
+    flex: 1 1 0%;
+    -webkit-box-pack: justify;
+    justify-content: center;
+}
+
+.right {
+    display: table;
+    width: 800px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 100px;
+}
+
+.painel-right {
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 8px 10px;
+    position: relative;
+    width: 100%;
+    height: 250px;
+}
+/*FORMULÁRIO*/
+
+.box-form {
+    position: relative;
+    box-shadow: rgb(148, 148, 148) 0px 0px 0px 1px;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease 0s;
+    width: 80%;
+    margin: 50px 50px;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+form {
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    pointer-events: none;
+    z-index: 1;
+    top: 0px;
+    height: 500px;
+    left: calc(12px);
+    line-height: 1;
+    max-width: calc(100% - 24px);
+}
+
+input {
+    position: relative;
+    background: rgb(255, 255, 255);
+    font-family: "Open Sans", helvetica, arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(51, 51, 51);
+    border: none;
+    border-radius: 8px;
+    outline: 0px;
+    width: 80%;
+    padding: 10px 16px;
+}
+
+button {
+    background: transparent;
+    padding: 0px;
+    border: none;
+    appearance: none;
+    padding-bottom: 10px;
+}
+
+.button-name {
+    margin-right: 20px;
+    width: auto;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-image: initial;
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    appearance: none;
+    border-radius: 8px;
+    transition: transform 0.1s ease 0s, box-shadow 0.1s ease 0s;
+    border-bottom: 4px solid rgb(161, 35, 101);
+    min-height: 44px;
+    padding: 8px 30px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    background-color: rgb(205, 0, 107);
+    color: rgb(255, 255, 255);
+}
+
+.button-name:hover {
+    transform: scale(1.1);
+    box-shadow: black;
+}
